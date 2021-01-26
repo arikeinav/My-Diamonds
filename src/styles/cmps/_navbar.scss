@@ -1,0 +1,60 @@
+.nav-bar{
+    height: 50px;
+    padding: 0 15px;
+    background-color: #8bb4bd;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+    .log{
+        justify-content: space-between;
+        width: 150px;
+        @media (max-width: $small-screen){
+            width: 120px;
+        }
+    }
+    
+    
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+.navdiv-s{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navdiv-s:hover,.nav-bar a:hover{
+    color:#3d185c ;  
+}
+.signup{
+   
+    cursor: pointer;
+}
+.login{
+    
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}
+
+
+
+@media (max-width: $medium-screen){
+    .navdiv-s{
+        font-size: 1.1rem;
+       
+
+    }
+}
+
+@media (max-width: $small-screen){
+
+    .navdiv-s{
+        font-size: 1rem;
+        
+    }
+   
+}
