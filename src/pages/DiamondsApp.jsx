@@ -20,7 +20,6 @@ import {UserMsgModal} from "../cmps/UserMsgModal.jsx"
 
   
  loadDiamonds =()=>{
-   console.log('what');
    this.props.loadDiamonds()
    
   }

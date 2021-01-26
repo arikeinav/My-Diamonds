@@ -4,9 +4,16 @@
 }
 .home-page {
   background-image: url("../images/homepage.jpg");
-  height: 750px;
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 93vh;
+  background-size: cover;
   background-position-x: center;
+
   background-color: rgb(27, 34, 39);
+  @media (max-width:800px){
+    background-size: contain;
+    background-position-x: center;
+
+
+
+  }
 }
